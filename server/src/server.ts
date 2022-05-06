@@ -8,7 +8,7 @@ app.use(cors());
 app.use(express.json());                                                    // config para fazer o express começar a aceitar JSON
 app.use(routes);
 
-app.listen(3333, () => {
+app.listen(process.env.PORT || 3333, () => {
   console.log("HTTP server running")
 });
 
