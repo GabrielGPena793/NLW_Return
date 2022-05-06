@@ -9,8 +9,7 @@ export class PrismaFeedbackRepository implements FeedbacksRepository{
         type,
         comment,
         screenshot,
-      }
+      },
     });
   }
-  
 }
